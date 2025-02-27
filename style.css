@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.containar {
+    width: 100%;
+    height: 100%;
+}
+.containar .Emon{
+    width: 1000px;
+    height: 0px;
+    color: red;
+    font-size: 30px;
+    margin-left: 10%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    position: absolute;
+    left: 90px;
+    top: 50px;
+    margin-left: 20%;
+}
+
+.logo a {
+    text-shadow: 3px 2px 2px #2f2e41;
+    font-weight: bold;
+    color: red;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.searchAria {
+    position: fixed;
+    right: 90px;
+    top: 50px;
+    width: 160px;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:20% 30% 20%;
+    box-shadow: 2px 2px 30px white;
+    box-sizing: border-box;
+    z-index: 1;
+    border: 1px solid black;
+}
+
+.searchbox input {
+    width: 100px;
+    height: 20px;
+    padding: 0 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: #2f2e41;
+}
+
+.searchbox input::placeholder {
+    color: #1d1d1d;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    font-family: Poppins, sans-serif;
+}
+ .containar .logo a .Emon{
+    text-shadow:3px 3px 5px blue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+
+.section1 {
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-15%, -50%);
+}
+
+.section1 img {
+    height: 300px;
+    margin-top: 30%;
+    margin-left:20%;
+}
+
+.section1button {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-90%, -50%);
+}
+
+.section1button h1,
+.section1button h2 {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    line-height: 60px;
+    font-size: 2rem;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.08);
+    letter-spacing: 3px;
+    color: #3d3d4A;
+    text-transform: uppercase;
+}
+
+
+span {
+    color: #7A72FF;
+}
+
+.section1button h1 {
+    letter-spacing: 28px;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    background-color: #2f2e41;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+    margin-top: 20px;
+    color: #fff;
+    font-family: Calibri, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    border: transparent !important;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #6e64ff;
+    transition: all ease 0.5s;
+}
+
+.icon {
+    position: fixed;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    padding: 5px 0;
+    z-index: 1;
+}
+
+.icon a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.icon a i {
+    color: rgba(39, 39, 39, 0.80);
+}
+
+.icon a:hover .fa-facebook-f {
+    color: #3b5998;
+}
+
+.icon a:hover .fa-twitter {
+    color: #00acee;
+}
+
+.icon a:hover .fa-instagram {
+    color: #3f729b;
+}
+
+.icon a:hover .fa-youtube {
+    color: #ff0000;
+}
+
+.containar .logo .Emon {
+    color: black;
+    animation-delay: inherit;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation: fadeIn 2s linear;
+}
+
+.productsection {
+    width: 85%;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    display: flex;
+    margin: 30px auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    margin-top: -60px;
+    position: relative;
+    background-size: 1000px;
+    border-radius: 10px;
+}
+
+.productsection > h3 {
+    margin: 20px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    display: flex;
+    font-size: 2rem;
+    color: #323542;
+}
+
+
+    .product {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* প্রতি লাইনে ৩টি প্রোডাক্ট বসবে */
+        gap: 20px; /* আইটেমগুলোর মাঝে দূরত্ব */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+    }
+    
+
+
+.productBox {
+    width: 250px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+    margin: 10px 30px;
+}
+
+.productBox img {
+    height: 80px;
+}
+
+/* Buy Button সাধারণ অবস্থায় লুকিয়ে থাকবে */
+.productBox .BuyBtn {
+    text-decoration:none;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color:black;
+    border-radius: 20px;
+    display:none ; /* সাধারণ অবস্থায় লুকাবে */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+.productBox:hover .BuyBtn{
+    display: flex;
+color: #1d1d1d;} /* হোভার করলে দেখাবে */
+/* হোভার অবস্থায় BuyBtn এর স্টাইল */
+.productBox :hover {
+    background-color:#ffffff;
+    box-shadow:2px 2px 30px rgba(0,0,0,0.1);
+
+}
+.productBox:hover a:last-child{
+    color:black;
+    transition: all ease 0.3s;;
+}
+.About{
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    margin: 50px auto;
+    align-items: center;
+    padding: 30px;
+    
+}
+.AboutBox{
+    width: 40%;
+    font-family: mariad pro;
+
+ 
+}
+.AboutBox img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.AboutBox h1{
+    color: #1d1d1d;
+    margin:0;
+    width: 700;
+    font-size:3rem ;
+}
+.AboutBox h4{
+    color: #1d1d1d;
+    margin:0;
+    width: 400;
+    font-size:2rem ;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+.AboutBox p{
+    color:wheat;
+    font-size: 1rem;
+    letter-spacing: 0.5px;}
+
+.notification{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 250px;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px solid rgba(0,0,0,0.03);
+    
+  
+
+}
+.notificationInput{
+     width: 500px;
+     background-color: #fff;
+     height: 60px;
+     align-items: center;
+     padding:5px 20px;
+     box-shadow: 2px 5px 30px rgba(0,0,0,0.1);
+    margin-top: 30px;
+    justify-content: center;
+    display:flex;
+    border-radius: 7% 7% 7% 7% / 50% 50% 50% 50%;
+    
+}
+.notificationInput input{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.notificationButton{
+    width: 120px;
+    height:40px;
+    background-color: #1d1d1d;
+    color:antiquewhite ;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    display:flex;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+
+}
+.notificationButton:hover{
+    background-color: #6b60ec;
+    transition: all ease 0.5s;;
+}
+footer{
+    background-color: black;
+    padding: 20px;
+}
+footer p {
+    text-align: center;
+    color: #f2f2f2;
+
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    .section1button{left: 240%;}
+.About{
+    width: 250%;}
+    .productsection {
+        width: 298%;
+        margin-top: 187px;
+}
+.productBox .BuyBtn{
+    display: block;
+}}
